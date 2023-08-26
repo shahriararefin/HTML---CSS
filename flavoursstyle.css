@@ -1,0 +1,31 @@
+#outer{
+    text-align: center;
+    font-size: 30px;
+}
+
+#inner{
+    font-size: 13px;
+}
+
+
+  
+
+
+body{
+    background-color: #FA9F42;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+    
+}
+#appetizer{
+    color: aliceblue;
+    background-color: brown;
+}
+
+#nachos{
+    color: aliceblue;
+    background-color: brown;
+}
+
+a{
+    text-decoration: none;
+}
