@@ -1,0 +1,40 @@
+
+#navigation{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    height: 30px;
+    margin: 0px;
+    padding: 15px;
+   
+    
+}
+
+#logo{
+    margin-left: 50px;
+    margin-right: 400px;
+    color: aquamarine;
+}
+
+#account{
+    margin-right: 400px;
+}
+
+#cart{
+    margin-right: 400px;
+}
+
+#searchbar{
+   
+}
+
+#searchbox{
+    background-color: orange;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: bisque;
+}
