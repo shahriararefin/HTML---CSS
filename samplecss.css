@@ -4,28 +4,30 @@
     color: white;
     background-color: black;
     height: 30px;
-    margin: 0px;
     padding: 15px;
-   
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: inline-block
     
 }
 
 #logo{
-    margin-left: 50px;
-    margin-right: 400px;
+    margin-right: 200px;
     color: aquamarine;
 }
 
 #account{
-    margin-right: 400px;
+    margin-right: 200px;
 }
 
 #cart{
-    margin-right: 400px;
+    margin-right: 350px;
 }
 
 #searchbar{
-   
+    
 }
 
 #searchbox{
@@ -37,4 +39,10 @@
 footer{
     text-align: center;
     background-color: bisque;
-}
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    top: 100vh;
+   
+    
