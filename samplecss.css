@@ -14,27 +14,66 @@
 }
 
 #logo{
-    margin-right: 200px;
+    margin-right: 300px;
     color: aquamarine;
 }
 
 #account{
-    margin-right: 200px;
+    margin-right: 300px;
 }
 
 #cart{
-    margin-right: 350px;
-}
-
-#searchbar{
-    
+    margin-right: 400px;
 }
 
 #searchbox{
     background-color: orange;
+    margin-right: 300px;
 }
 
 
+/* #cartlogo{
+    background-color: aliceblue;
+    margin-right: 340px;
+    height: 20px;
+} */
+
+#searchbar{
+    /* z-index: ; */
+}
+
+
+
+#nav2{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 500px;
+    margin-top: 52px ;
+    padding-left: 10px;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#salad{
+    background-color: brown;
+    height: 30px;
+}
+
+#burger{
+    background-color: rgb(235, 74, 11);
+    height: 30px;
+}
+#appet{
+
+    background-color: rgb(235, 11, 104);
+    height: 30px;
+
+}
 
 footer{
     text-align: center;
