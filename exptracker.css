@@ -1,0 +1,28 @@
+.navbar{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    justify-content: space-between;
+    
+    
+}
+
+a{
+    font-size: 30px;
+}
+
+#dollar{
+    
+    margin-right: 180vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

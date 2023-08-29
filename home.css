@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    background-color: #37D6A6;
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.div1 {}
+
+.div2 {
+    width: 100%;
+    height: 86px;
+    color: #000;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#img1 {
+
+    width: 104px;
+    height: 86px;
+    object-fit: contain;
+}
+
+
+nav {
+    position: relative;
+    margin: 100% auto 1;
+    width: 100;
+    height: 69px;
+    background: #9d0606;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+nav a {
+    font-size: 15px;
+    /* text-transform: uppercase; */
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation {
+    position: absolute;
+    height: 70%;
+    /* height: 5px; */
+    top: 10%;
+    /* bottom: 0; */
+    z-index: 0;
+    background: #480800;
+    border-radius: 20px;
+    transition: all .5s ease 0s;
+}
+
+nav a:nth-child(1) {
+    width: 100px;
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+nav a:nth-child(2) {
+    width: 110px;
+}
+
+nav a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+}
+
+nav a:nth-child(3) {
+    width: 100px;
+}
+
+nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+}
+
+nav a:nth-child(4) {
+    width: 160px;
+}
+
+nav a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+}
+
+nav a:nth-child(5) {
+    width: 120px;
+}
+
+nav a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 470px;
+}
+
+/* form {
+    
+    position: absolute;
+top: 40%;
+    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    max-width: 100%;
+
+    padding: 28px;
+
+    margin: auto;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    background: rgba(0, 0, 0, 0.2);
+
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6); 
+} */
+
+
+input {
+    caret-color: red;
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+    height: px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #37D6A6;
+
+}
+
+input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button {
+    color: white;
+    margin-top: 20px;
+    background: #c50b0b;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+
+    transition: 0.5s;
+}
+
+/* .inputs {
+    text-align: left;
+    margin-top: 30px;
+  } */
+label,
+input,
+button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+
+
+
+
+input::placeholder {
+    color: gray;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: vh; /* Ensure container takes up at least the full viewport height */
+  }
+
+
+
+.full-width-image {
+    
+    max-width: 100%;
+    max-height: 100%
+}
+
+pp{
+
+    color: #000;
+font-family: Inter;
+font-size: 1.5rem;
+font-style: italic;
+font-weight: 100;
+line-height: normal;
+}
+
+
+
+  
+  /* Style the centered text */
+  .text-container p {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Style the italic part of the text */
+  .text-container .italic {
+    font-style: italic;
+    font-size: 24px;
+  }

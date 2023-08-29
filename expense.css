@@ -1,0 +1,50 @@
+.navbar{
+    height: 150px;
+    display: flex;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content:
+    space-between;
+    padding-top: 40px;
+    padding-left: 300px;
+    
+}
+
+body{
+    background-image: url("calimg.png");
+    background-size: cover;
+    
+}
+
+#frontpage{
+    position: fixed;
+    right: 0;
+    top: 40px;
+    left: 140vh;
+    padding: 15px;
+
+}
+
+button{
+    background-color: #373a99;
+    position: fixed;
+    color: aliceblue;
+    
+}
+
+a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+
+#email{
+    margin-right: 50px;
+}
+
+#password{
+    margin-right: 27px;
+}
