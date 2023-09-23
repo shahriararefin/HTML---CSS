@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <section>
+        <form id="expense-form">
+            <input type="text" id="expense-description" placeholder="Expense Description" required>
+            <input type="number" id="expense-amount" placeholder="Expense Amount (BDT)" required>
+            <button type="submit">Add Expense</button>
+        </form>
+    </section>
+    <section>
+        <h2>Expenses</h2>
+        <ul id="expense-list">
+            <!-- Expenses will be displayed here -->
+        </ul>
+    </section>
+    <section>
+        <h2>Financial Summary</h2>
+        <div id="financial-container">
+            <div>
+                <h3>Wallet</h3>
+                <p id="wallet-amount">৳0.00</p>
+            </div>
+            <div>
+                <h3>Bank Account</h3>
+                <p id="bank-amount">৳0.00</p>
+            </div>
+            <div>
+                <h3>Mobile Banking Apps</h3>
+                <p id="bkash-amount">৳0.00 (Bkash)</p>
+                <p id="rocket-amount">৳0.00 (Rocket)</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Total Expenses: <span id="total-expenses">৳0.00</span></h2>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

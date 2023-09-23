@@ -1,0 +1,372 @@
+/* body {
+    display: block;
+    margin: 8px;
+}
+
+
+element.style {
+}
+@media (min-width: 768px)
+.container {
+    max-width: calc(100% - 125px);
+    margin-left: 125px;
+    margin-top: 1em;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    height: auto!important;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Roboto,Helvetica Neue;
+}
+body, h1, h2, h3, h4, h5 {
+    padding: 0;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+}
+html {
+    font-size: 14px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.container {
+    max-width: calc(100% - 125px);
+    margin-left: 125px;
+    margin-top: 1em;
+}
+.ui.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    margin: -1rem;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.container-full-page {
+    max-width: 960px;
+    margin: 1em auto;
+    padding: 0 1em 1em;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.28571429rem;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+
+.container-full-page {
+    display: block;
+    background-color: #fff;
+    font-size: 1.14285714rem;
+    line-height: 1.5;
+}
+
+.ui.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    margin: -1rem;
+}
+
+.ui.grid>.row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    align-items: stretch;
+    width: 100%!important;
+    padding: 1rem 0;
+}
+
+div {
+    display: block;
+}
+
+.section__header {
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    padding: 1em 0;
+}
+
+.section__header h3 {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding-left: 0.15em;
+}
+.net-worth__total {
+    display: table-cell;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.positive {
+    color: #21ba45;
+}
+
+.account-widget {
+    border: 1px solid #d4d4d5;
+    border-radius: 0.28571429rem;
+}
+
+.account-widget-group {
+    border-top: 1px solid #d4d4d5;
+}
+
+.account-widget-group__header {
+    display: table;
+    width: 100%;
+    cursor: pointer;
+}
+
+.account-widget-group__name, .account-widget-group__total {
+    display: table-cell;
+    font-weight: 500;
+    background-color: rgba(77,78,80,.05);
+    padding: 0.5em 1em;
+}
+
+.account-widget-group__total {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.account-widget-account {
+    width: 100%;
+    border-top: 1px solid #d4d4d5;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: top;
+}
+.account-widget-account__name {
+    padding: 0.5em 0.5em 0.5em 1em;
+}
+
+a {
+    color: #4183c4;
+}
+
+a {
+    background-color: initial;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.account-widget-account__balance {
+    text-align: right;
+    white-space: nowrap;
+    flex: 1 1;
+    flex-flow: column nowrap;
+}
+.account-widget-account__balance, .account-widget-account__name {
+    display: flex;
+    padding: 0.5em 1em;
+}
+
+.ui.grid>.row>[class*="ten wide computer"].column, .ui.grid>[class*="ten wide computer"].column {
+    width: 62.5%!important;
+}
+
+.ui.grid>.row>[class*="sixteen wide"].column, .ui.grid>[class*="sixteen wide"].column {
+    width: 100%!important;
+}
+
+.ui.grid>.row>[class*="ten wide"].column, .ui.grid>[class*="ten wide"].column {
+    width: 62.5%!important;
+}
+
+.ui.grid>.column:not(.row), .ui.grid>.row>.column {
+    position: relative;
+    display: inline-block;
+    width: 6.25%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.ui.grid>.column:not(.row), .ui.grid>.row>.column {
+    position: relative;
+    display: inline-block;
+    width: 6.25%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.ui.attached.menu:not(.tabular) {
+    border: 1px solid #d4d4d5;
+}
+.ui.menu[class*="top attached"]:first-child {
+    margin-top: 0;
+}
+.ui.attached.item.menu {
+    margin: 0 -1px!important;
+}
+.ui[class*="top attached"].menu {
+    bottom: 0;
+    margin-bottom: 0;
+    top: 0;
+    margin-top: 1rem;
+    border-radius: 0.28571429rem 0.28571429rem 0 0;
+}
+.ui.attached.menu {
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    margin: 0 -1px;
+    width: calc(100% + 2px);
+    max-width: calc(100% + 2px);
+    box-shadow: none;
+}
+.ui.item.menu, .ui.item.menu .item {
+    width: 100%;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    text-align: center;
+    justify-content: center;
+}
+.ui.menu:first-child {
+    margin-top: 0;
+}
+.ui.menu {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Roboto,Helvetica Neue;
+}
+.ui.menu {
+    font-size: 1rem;
+}
+.ui.menu {
+    display: flex;
+    margin: 1rem 0;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    background: #fff;
+    font-weight: 400;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: 0.28571429rem;
+    min-height: 2.85714286em;
+} */
+
+/* Reset some default styles */
+body, div, p, h1, h2, h3, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container-full-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the grid */
+.ui.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the columns */
+.column {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the section headers */
+.section__header {
+    display: flex;
+    align-items: center;
+}
+
+.section__header h3 {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* Style the account widgets */
+.account-widget {
+    margin-top: 20px;
+}
+
+.account-widget-group__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.account-widget-group__name {
+    font-weight: bold;
+}
+
+/* Style the form */
+.transaction-form {
+    margin-top: 20px;
+}
+
+/* Style the menu */
+.menu {
+    display: flex;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.menu .item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu .item.active {
+    background-color: #ff5733;
+    color: #fff;
+}
+
+/* Style the input fields */
+.field {
+    margin-bottom: 10px;
+}
+
+/* Style the button */
+.primary.button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary.button:hover {
+    background-color: #d64022;
+}

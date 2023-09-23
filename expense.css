@@ -46,5 +46,18 @@ a{
 }
 
 #password{
-    margin-right: 27px;
+    margin-right: 26px;
+}
+
+.body{
+    padding-top: 300px;
+    padding-left: 290px;
+    display: inline-block;
+
+}
+
+
+#profile{
+    padding: 10px;
+    padd
 }
