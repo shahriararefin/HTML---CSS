@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <!-- Navbar content -->
+            <div class="white-circle">
+                <div class="dollar-sign">$</div>
+            </div>
+            <div class="dashboard-text">Dashboard</div>
+            <div class="reload-button">&#8635;</div>
+        </header>
+        <aside class="sidebar">
+            <!-- Sidebar content here -->
+            <h2>Your Balance</h2>
+            <p id="cash-balance">Cash: $</p>
+            <p id="bank-account-balance">Bank Account: $3,200</p>
+            <p id="bkash-balance">Bkash: $500</p>
+            <p id="rocket-balance">Rocket: $300</p>
+        </aside>
+        <main>
+            <!-- Main content here -->
+            <section id="expense-entry" class="entry-section">
+                <h2>Expense Entry</h2>
+                <!-- Expense entry form -->
+                <form id="expense-form">
+                    <label for="expense-description">Description:</label>
+                    <input type="text" id="expense-description" placeholder="Expense description">
+                    <label for="expense-amount">Amount:</label>
+                    <input type="number" id="expense-amount" placeholder="Amount">
+                    <label for="expense-category">Category:</label>
+                    <label for="expense-account">Expense from:</label>
+                    <select id="expense-account">
+                        <option value="cash">Cash</option>
+                        <option value="bank-account">Bank Account</option>
+                        <option value="bkash">Bkash</option>
+                        <option value="rocket">Rocket</option>
+                        <!-- Add more accounts as needed -->
+                    </select>
+                    <select id="expense-category">
+                        <option value="food">Food</option>
+                        <option value="transportation">Transportation</option>
+                        <option value="rent">Rent</option>
+                        <option value="social-life">Social Life</option>
+                        <option value="apparel">Apparel</option>
+                        <option value="education">Education</option>
+                        <option value="others">Others</option>
+                        <!-- Add more categories as needed -->
+                    </select>
+                    <label for="expense-notes">Notes:</label>
+                    <textarea id="expense-notes" placeholder="Optional notes"></textarea>
+                    <button id="add-expense">Add Expense</button>
+                </form>
+                <!-- Sample Expense Entries (Replace with your actual entries) -->
+                <div class="entry-list" id="expense-entry-list">
+                    <!-- Entries will be added here dynamically using JavaScript -->
+                </div>
+            </section>
+
+
+            <section id="income-entry" class="entry-section">
+                <h2>Income Entry</h2>
+                <!-- Income entry form -->
+                <form id="income-form">
+                    <label for="income-source">Source:</label>
+                    <input type="text" id="income-source" placeholder="Income source">
+                    <label for="income-amount">Amount:</label>
+                    <input type="number" id="income-amount" placeholder="Amount">
+                    <label for="income-notes">Notes:</label>
+                    <section id="income-entry" class="entry-section">
+                        <h2>Income Entry</h2>
+                        <!-- Income entry form -->
+                        <form id="income-form">
+                            <label for="income-source">Source:</label>
+                            <input type="text" id="income-source" placeholder="Income source">
+                            <label for="income-amount">Amount:</label>
+                            <input type="number" id="income-amount" placeholder="Amount">
+                            <label for="income-account">Add Income to:</label>
+                            <select id="income-account">
+                                <option value="cash">Cash</option>
+                                <option value="bank-account">Bank Account</option>
+                                <option value="bkash">Bkash</option>
+                                <option value="rocket">Rocket</option>
+                                <!-- Add more accounts as needed -->
+                            </select>
+                            <label for="income-notes">Notes:</label>
+                            <textarea id="income-notes" placeholder="Optional notes"></textarea>
+                            <button id="add-income">Add Income</button>
+                        </form>
+                        <!-- Sample Income Entries (Replace with your actual entries) -->
+                        <div class="entry-list" id="income-entry-list">
+                            <!-- Entries will be added here dynamically using JavaScript -->
+                        </div>
+                    </section>
+
+                    <textarea id="income-notes" placeholder="Optional notes"></textarea>
+                    <button id="add-income">Add Income</button>
+                </form>
+                <!-- Sample Income Entries (Replace with your actual entries) -->
+                <div class="entry-list" id="income-entry-list">
+                    <!-- Entries will be added here dynamically using JavaScript -->
+                </div>
+            </section>
+            <section id="transfer-entry" class="entry-section">
+                <h2>Transfer</h2>
+                <!-- Transfer entry form -->
+                <form id="transfer-form">
+                    <label for="from-account">From Account:</label>
+                    <select id="from-account">
+                        <option value="cash">Cash</option>
+                        <option value="bank-account">Bank Account</option>
+                        <option value="bkash">Bkash</option>
+                        <option value="rocket">Rocket</option>
+                        <!-- Add more accounts as needed -->
+                    </select>
+                    <label for="to-account">To Account:</label>
+                    <select id="to-account">
+                        <option value="cash">Cash</option>
+                        <option value="bank-account">Bank Account</option>
+                        <option value="bkash">Bkash</option>
+                        <option value="rocket">Rocket</option>
+                        <!-- Add more accounts as needed -->
+                    </select>
+                    <label for="transfer-amount">Amount:</label>
+                    <input type="number" id="transfer-amount" placeholder="Amount">
+                    <label for="transfer-notes">Notes:</label>
+                    <textarea id="transfer-notes" placeholder="Optional notes"></textarea>
+                    <button id="add-transfer">Transfer</button>
+                </form>
+                <!-- Sample Transfer Entries (Replace with your actual entries) -->
+                <div class="entry-list" id="transfer-entry-list">
+                    <!-- Entries will be added here dynamically using JavaScript -->
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
